@@ -1,0 +1,94 @@
+{
+    "name": "XboxControls",
+    "maps": [
+        {
+            "name": "DronePlayer",
+            "id": "86a4c29a-8a54-41ea-a71f-daeeda9ce9cd",
+            "actions": [
+                {
+                    "name": "Move on Left Right Axis",
+                    "type": "Value",
+                    "id": "3026ff26-d5ff-42ac-a843-93995514a28f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move on Back Forward Axis",
+                    "type": "Value",
+                    "id": "09ba4436-ea6c-409d-98f7-1aadfdcacace",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate on Left Right Axis",
+                    "type": "Value",
+                    "id": "c8c6c250-1789-4f46-ac19-612373c5d952",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Move on Down Up Axis",
+                    "type": "Value",
+                    "id": "b1d0538e-ad8e-4fcb-ae4e-c42af022e0f5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a7287d75-6f82-4314-b898-0a7be742b899",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move on Left Right Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d60caa2a-790c-49fd-9f35-d432c527a10b",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move on Back Forward Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a53d2131-6130-42ba-97e9-8cbbd21f5926",
+                    "path": "<Gamepad>/rightStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate on Left Right Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b44a3ab-7576-430b-b629-2d6c7d51fd37",
+                    "path": "<Gamepad>/rightStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move on Down Up Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
